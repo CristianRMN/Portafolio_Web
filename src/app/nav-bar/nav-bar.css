@@ -1,0 +1,68 @@
+.navigation-about {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;       
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.image-about {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.image-about:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.image-name-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.mi-nombre:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.lista-navegacion-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ul-navegacion-about {
+  display: flex;
+  gap: 70px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}

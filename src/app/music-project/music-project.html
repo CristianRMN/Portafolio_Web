@@ -1,0 +1,50 @@
+<div class="container-music-project" id="spoty_id">
+    <h1 class="title-music-project">APP MUSICAL CON JAVA Y SPRING BOOT</h1>
+    <div class="project-spoty">
+        <img [src]="imgTv" alt="" class="imagen-tv">
+        <img [src]="imgSpoty" alt="" class="imagen-overlay">
+        <div class="overlay">
+            <p class="description-overlay">Proyecto Musical hecho con java y Spring boot</p>
+            <button class="go-to-project-spoty" (click)="loadGitHubMusic()">GIT HUB</button>
+        </div>
+    </div>
+    <div class="esquema-project-music">
+        <div class="descripcion-project-music">
+            <h2 class="title-descripcion-project-music">
+                DESCRIPCIÓN
+            </h2>
+            <p class="parrafo-descripcion-project-music">
+                Este proyecto es una aplicación musical desarrollada con <strong>Java y Spring Boot</strong>,<br>
+                diseñada siguiendo una arquitectura de <strong>microservicios.</strong>La aplicación permite<br>
+                que los usuarios se registren y hagan login para acceder a funcionalidades<br> completas,
+                incluyendo la <strong>consulta de información de álbumes, artistas y canciones,<br></strong> la reproducción
+                de música y la gestión de un historial de canciones escuchadas, así<br>como un top de canciones
+                más escuchadas. La aplicación utiliza <strong>REST Controllers<br></strong>para manejar los endpoints de la API,
+                DTOs y modelos de datos para la transferencia<br> de información, y services para encapsular
+                la lógica de negocio. La persistencia<br> de datos se gestiona mediante <strong>JPA y JPARepository</strong>, comunicándose
+                con PostgreSQL<br> para mantener las relaciones entre tablas, mientras que <strong>MongoDB</strong> se utiliza para almacenar
+                datos<br> que no requieren relaciones, como el historial y el top de canciones. El proyecto está
+                estructurado<br> en <strong>tres microservicios</strong>: uno encargado de la entrada de datos, otro para la comunicación<br> con
+                la base de datos relacional y un tercero para la gestión de los datos en MongoDB<br>, asegurando
+                escalabilidad, modularidad y un manejo eficiente de la información.
+            </p>
+        </div>
+        <div class="herramientas-project">
+            <h2 class="title-skills-information">TECNOLOGÍAS Y HERRAMIENTAS <br>UTILIZADAS</h2>
+            <div class="label-grid">
+                <label>Java</label>
+                <label>Spring Boot</label>
+                <label>JPA</label>
+                <label>DTO</label>
+                <label>Rest Controller</label>
+                <label>API REST</label>
+                <label>Feing Client</label>
+                <label>PostgreSQL</label>
+                <label>MongoDB</label>
+                <label>Postman</label>
+                <label>GitHub</label>
+                <label>Swagger</label>
+            </div>
+        </div>
+    </div>
+</div>

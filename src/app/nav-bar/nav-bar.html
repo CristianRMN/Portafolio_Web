@@ -1,0 +1,13 @@
+<div class="navigation-about">
+    <div class="image-name-about">
+        <img [src]="imgAboutPath" alt="imagen" class="image-about" (click)="reloadPagina()">
+        <label class="mi-nombre" (click)="reloadPagina()">CRISTIAN REGUEIRO MARTÍNEZ</label>
+    </div>
+    <div class="lista-navegacion-about">
+        <ul class="ul-navegacion-about">
+            <li (click)="scrollAbout()">SOBRE MÍ</li>
+            <li (click)="scrollProyects()">PROYECTOS</li>
+            <li (click)="scrollContact()">CONTACTO</li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,106 @@
+.container-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 238, 238);
+    gap: 50px;
+}
+
+.init-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.title-init-information {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-title-init-information {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.skills-text-information-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 110px;
+    padding: 2%;
+}
+
+.title-text-information {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-information {
+    width: 40%;
+    margin-bottom: 4%;
+}
+
+.parrafo-information {
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button-contacto-text-information {
+    background-color: rgb(146, 75, 205);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button-contacto-text-information:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.skills-information {
+    margin-right: 5%;
+    display: block;
+    margin-bottom: 4%;
+}
+
+.title-skills-information {
+    margin-left: 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.label-grid label {
+    background-color: rgb(209, 207, 207);
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+    transition: background 0.3s;
+}
+
+.label-grid label:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,51 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(200, 150, 150);
+    gap: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.title-redes-sociales {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 330px;
+}
+
+li {
+    list-style: none;
+}
+
+.imagen-footer {
+    width: 60px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.imagen-footer:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.derechos-container {
+    border: 1px black solid;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 2%;
+    width: 70%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
