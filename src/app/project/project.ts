@@ -17,20 +17,15 @@ export class Project {
   imgMovil = 'assets/pantallaMovil.png';
   imgSimon = 'assets/SimonDice.gif';
 
-  goToMusicSpoty() {
+  goToSection(path: string, id: string) {
 
-      this.router.navigate(['/musicProject']).then(() => {
+      this.router.navigate([path]).then(() => {
         setTimeout(() => {
-          this.scroller.scrollToAnchor('spoty_id');
+          this.scroller.scrollToAnchor(id);
         }, 100);
       });
     }
 
-  goToGodot() {
-      this.router.navigate(['/godotProject']).then(() => {
-        setTimeout(() => {
-          this.scroller.scrollToAnchor('godot_id');
-        }, 100);
-      });
-    }
+  
 }
+

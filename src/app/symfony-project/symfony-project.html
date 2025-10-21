@@ -1,0 +1,52 @@
+<div class="container-project" id="symfony_id">
+    <h1 class="title-project">Backend de contenidos con Symfony</h1>
+    <div class="project">
+        <img [src]="imgTv" alt="" class="imagen-tv">
+        <img [src]="imgSymfony" alt="" class="imagen-overlay">
+        <div class="overlay">
+            <p class="description-overlay">Prueba técnica realizada con Symfony para la gestión de contenidos CRM</p>
+            <button class="go-to-project-spoty" (click)="loadGitHubSymfony()">GIT HUB</button>
+        </div>
+    </div>
+    <div class="esquema-project">
+        <div class="descripcion-project">
+            <h2 class="title-descripcion-project">
+                DESCRIPCIÓN
+            </h2>
+            <p class="parrafo-descripcion-project">
+                Este proyecto fue desarrollado con <strong>Symfony</strong> como una aplicación de gestión de<br>
+                <strong>contenidos “branded content”</strong>, similar a un CRM. El sistema se estructura en<br>
+                <strong>cinco tablas principales</strong>: Proveedores, Medios, Contenidos, Tarifas y Enlaces. <br>Las
+                relaciones entre entidades están cuidadosamente diseñadas para reflejar<br> la lógica de negocio: un
+                <strong>Proveedor</strong> y un <strong>Medio</strong> se conectan a través de un<br>
+                <strong>Contenido</strong>, que a su vez puede estar asociado a una <strong>Tarifa</strong> y a uno o
+                varios <strong>Enlaces.<br></strong>Esto define una relación de muchos a muchos entre proveedores y
+                contenidos,<br> gestionada mediante la tabla de tarifas. Cada contenido debe tener asignado<br> un ID de
+                proveedor y de medio, y solo puede existir si tiene una tarifa vigente.<br>
+                Durante el desarrollo se implementaron <strong>30 endpoints</strong> en tan solo dos días, con<br>
+                <strong>autenticación JWT</strong> para la seguridad de la API. La prueba técnica se ejecutó<br> utilizando
+                <strong>Docker</strong> y el entorno <strong>WSL</strong> para validar su correcto funcionamiento.<br> Se
+                empleó <strong>MySQL</strong> como base de datos. Aunque la prueba incluía un frontend<br> en Angular, el
+                enfoque principal fue el <strong>backend</strong>, siguiendo las indicaciones del<br> CEO de la empresa,
+                quien priorizaba la lógica y estructura del servidor<br> como parte clave del proyecto.
+            </p>
+        </div>
+        <div class="herramientas-project">
+            <h2 class="title-skills-information">TECNOLOGÍAS Y HERRAMIENTAS <br>UTILIZADAS</h2>
+            <div class="label-grid">
+                <label>PHP</label>
+                <label>Symfony</label>
+                <label>Visual Studio</label>
+                <label>Doctrine</label>
+                <label>Migraciones</label>
+                <label>Postman</label>
+                <label>Mysql</label>
+                <label>Docker</label>
+                <label>Wamp server</label>
+                <label>Linux</label>
+                <label>WSL</label>
+                <label>Rest Controller</label>
+            </div>
+        </div>
+    </div>
+</div>

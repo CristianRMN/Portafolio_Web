@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './contact.css'
 })
 export class Contact {
-  imgCorreo = 'assets/iconoCorreo.png';
+  imgCorreo = 'assets/footerCorreo.png';
+  sendMail() {
+  window.location.href = "mailto:cr.m23@hotmail.com";
+}
+
 }

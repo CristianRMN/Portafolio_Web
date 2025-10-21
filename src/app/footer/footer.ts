@@ -8,8 +8,17 @@ import { Component } from '@angular/core';
 })
 
 export class Footer {
-  footerCorreo = 'assets/footerCorreo.png';
+  footerTwitter = 'assets/twitter.png';
   footerLinkedin = 'assets/footerLinkedin.png';
   footerGithub = 'assets/footerGitHub.png';
 
+  loadResource(url: string){
+    window.location.href = url;
+  }
+
+  sendEmail(){
+      window.location.href = "mailto:cr.m23@hotmail.com";    
+  }
+
+  
 }

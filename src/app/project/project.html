@@ -12,7 +12,7 @@
         <img [src]="imgSpoty" alt="" class="imagen-overlay">
         <div class="overlay">
             <p class="description-overlay">Proyecto Musical hecho con java y Spring boot</p>
-            <button class="go-to-project-spoty" (click)="goToMusicSpoty()">MÁS INFORMACIÓN</button>
+            <button class="go-to-project-spoty" (click)="goToSection('/musicProject', 'spoty_id')">MÁS INFORMACIÓN</button>
         </div>
     </div>
     <div class="projects-row2">
@@ -20,7 +20,7 @@
         <img [src]="imgAreaZero" alt="" class="imagen-overlay">
         <div class="overlay">
             <p class="description-overlay">Videojuego de plataforma 2D en godot (En desarrollo)</p>
-            <button class="go-to-project-godot" (click)="goToGodot()">MÁS INFORMACIÓN</button>
+            <button class="go-to-project-godot" (click)="goToSection('/godotProject', 'godot_id')">MÁS INFORMACIÓN</button>
         </div>
     </div>
     <div class="projects-row3">
@@ -28,7 +28,7 @@
         <img [src]="imgPruebaTecnica" alt="" class="imagen-overlay">
         <div class="overlay">
             <p class="description-overlay">Backend con PHP y Symfony para gestor de contenidos</p>
-            <button class="go-to-project-symfony">MÁS INFORMACIÓN</button>
+            <button class="go-to-project-symfony" (click)="goToSection('/symfonyProject', 'symfony_id')">MÁS INFORMACIÓN</button>
         </div>
     </div>
     <div class="projects-row4">
@@ -36,7 +36,7 @@
         <img [src]="imgPokemonShowdown" alt="" class="imagen-overlay">
         <div class="overlay">
             <p class="description-overlay">Pokemon showdown hecho con Java y Swing</p>
-            <button class="go-to-project-showdown">MÁS INFORMACIÓN</button>
+            <button class="go-to-project-showdown" (click)="goToSection('/showdownProject', 'showdown_id')">MÁS INFORMACIÓN</button>
         </div>
     </div>
     <div class="projects-row5">
@@ -44,7 +44,7 @@
         <img [src]="imgSimon" alt="" class="imagen-overlay">
         <div class="overlay">
             <p class="description-overlay">Simon dice hecho con android studio y Kotlin</p>
-            <button class="go-to-project-simon">MÁS INFORMACIÓN</button>
+            <button class="go-to-project-simon" (click)="goToSection('/simonProject', 'simon_id')">MÁS INFORMACIÓN</button>
         </div>
     </div>
 </div>

@@ -1,0 +1,51 @@
+<div class="container-project" id="simon_id">
+    <h1 class="title-project">Simon dice en Kotlin</h1>
+    <div class="project">
+        <img [src]="imgTv" alt="" class="imagen-tv">
+        <img [src]="imgSimon" alt="" class="imagen-overlay">
+        <div class="overlay">
+            <p class="description-overlay">App para móvil que simula el juego de simon dice. Hecho con Android Studio
+            </p>
+            <button class="go-to-project-spoty" (click)="loadGitHubSimon()">GIT HUB</button>
+        </div>
+    </div>
+    <div class="esquema-project">
+        <div class="descripcion-project">
+            <h2 class="title-descripcion-project">
+                DESCRIPCIÓN
+            </h2>
+            <p class="parrafo-descripcion-project">
+                Este proyecto es una versión del clásico juego <strong>“Simón Dice”</strong>, desarrollada en
+                <strong>Android Studio<br></strong> utilizando <strong>Kotlin</strong>. La aplicación recrea la dinámica del
+                popular juego de memoria, donde<br>el usuario debe repetir correctamente una secuencia de colores que se
+                ilumina de forma progresiva.<br>
+
+                Al iniciar la aplicación, el usuario puede pulsar el botón <strong>“Start”</strong> para comenzar la
+                partida.<br> El juego muestra primero un color aleatorio, y si el jugador acierta, la secuencia aumenta<br> en
+                longitud, repitiendo los colores anteriores y añadiendo uno nuevo. Por ejemplo,<br> si primero se ilumina el
+                rojo, en la siguiente ronda se iluminarán el rojo y el naranja,<br> y así sucesivamente.
+
+                El juego incluye un <strong>conteo de rondas, aciertos y récords</strong>,<br> que se actualizan
+                dinámicamente a medida que el jugador progresa. La <strong>interfaz<br> de usuario</strong> está
+                desarrollada con <strong>Jetpack Compose</strong>, ofreciendo una experiencia moderna<br> y fluida. La
+                iluminación secuencial de los colores se gestiona mediante <strong>corutinas</strong>,<br> y la UI se
+                actualiza en tiempo real utilizando <strong>MutableState</strong>, garantizando una interacción <br>reactiva
+                y sin interrupciones.
+            </p>
+        </div>
+        <div class="herramientas-project">
+            <h2 class="title-skills-information">TECNOLOGÍAS Y HERRAMIENTAS <br>UTILIZADAS</h2>
+            <div class="label-grid">
+                <label>Kotlin</label>
+                <label>Android Studio</label>
+                <label>Singleton</label>
+                <label>MVVC</label>
+                <label>Coroutines</label>
+                <label>Jetpack compose</label>
+                <label>Mutable state</label>
+                <label>POO</label>
+                <label>Android</label>
+            </div>
+        </div>
+    </div>
+</div>

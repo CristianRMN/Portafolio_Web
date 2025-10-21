@@ -2,9 +2,13 @@
     <h2 class="title-redes-sociales">Redes sociales</h2>
     <div class="lista-redes">
         <ul>
-            <li><img [src]="footerLinkedin" alt="" class="imagen-footer"></li>
-            <li><img [src]="footerGithub" alt="" class="imagen-footer"></li>
-            <li><img [src]="footerCorreo" alt="" class="imagen-footer"></li>
+            <li><img [src]="footerLinkedin" alt="" class="imagen-footer"
+                    (click)="loadResource('https://www.linkedin.com/in/cristian-regueiro-mart%C3%ADnez-084187251/')">
+            </li>
+            <li><img [src]="footerGithub" alt="" class="imagen-footer"
+                    (click)="loadResource('https://github.com/CristianRMN')"></li>
+            <li><img [src]="footerTwitter" alt="" class="imagen-footer"
+                    (click)="loadResource('https://x.com/Cristianrmn69?t=uZM-ReDlj_nd8-VQKpA0qA&s=09')"></li>
         </ul>
     </div>
     <div class="derechos-container">

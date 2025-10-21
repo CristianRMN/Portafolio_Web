@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: center;
     gap: 400px;
+    margin-bottom: 5%;
 }
 
 .message-correo-phone {
@@ -44,6 +45,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .title-correo {
@@ -52,8 +54,8 @@
 
 .imagen-correo {
     width: 150px;
-    height: 100px;
-    transition: transform .3s;
+    height: 150px;
+    transition: transform 0.2s, opacity 0.2s;
 }
 
 .imagen-correo:hover {
@@ -61,7 +63,6 @@
     opacity: 0.8;
     cursor: pointer;
 }
-
 
 .nombre-correo {
     font-weight: bold;

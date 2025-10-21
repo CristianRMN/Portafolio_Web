@@ -1,0 +1,51 @@
+<div class="container-project" id="showdown_id">
+    <h1 class="title-project">Pokemon Showdown en Java</h1>
+    <div class="project">
+        <img [src]="imgTv" alt="" class="imagen-tv">
+        <img [src]="imgPokemon" alt="" class="imagen-overlay">
+        <div class="overlay">
+            <p class="description-overlay">Proyecto realizado en java que simula una batalla Pokemon 3 vs 3</p>
+            <button class="go-to-project-spoty" (click)="loadGitHubPokemon()">GIT HUB</button>
+        </div>
+    </div>
+    <div class="esquema-project">
+        <div class="descripcion-project">
+            <h2 class="title-descripcion-project">
+                DESCRIPCIÓN
+            </h2>
+            <p class="parrafo-descripcion-project">
+                Este proyecto fue desarrollado como parte del <strong>fin del primer año del ciclo de DAM, <br></strong>y
+                consiste en una simulación de <strong>batallas Pokémon 3 vs 3</strong> creada en <strong>Java</strong>
+                utilizando<br> <strong>Swing</strong>. Aunque actualmente se utiliza <strong>JavaFX</strong> por su
+                escalabilidad y su mejor separación<br> de responsabilidades siguiendo el patrón <strong>MVC</strong>, en
+                aquel momento no se había impartido<br> dicho framework, por lo que el proyecto fue desarrollado
+                completamente con Swing.<br> Esto representó un gran desafío, pero también una excelente oportunidad para
+                profundizar<br> en los principios de la <strong>Programación Orientada a Objetos</strong>.
+
+                El juego cuenta con un <strong>login<br></strong> donde el usuario puede elegir su icono de personaje y
+                nombre de entrenador, seguido<br> de un sorteo tipo <em>cara o cruz</em> para decidir quién selecciona
+                primero a sus tres Pokémon.<br> En esta versión se incluyen <strong>12 Pokémon</strong>, aunque el diseño
+                permite una futura ampliación<br> del catálogo. Se implementaron las <strong>mecánicas originales de
+                    combate</strong> de la saga, incluyendo<br> el algoritmo de daño utilizado por Nintendo. El sistema
+                sigue una estructura de <strong>combate<br> por turnos</strong> donde el Pokémon más rápido ataca primero,
+                con la posibilidad de cambiar de<br> Pokémon si uno es debilitado. El combate finaliza cuando los tres
+                Pokémon de un jugador<br> son derrotados.
+
+                La información de los Pokémon se gestiona mediante una <strong>base de datos<br> PostgreSQL</strong>, y se
+                aplicaron principios de <strong>herencia</strong> en Java para la jerarquía de clases<br> que representan
+                las diferentes especies y tipos de Pokémon.
+            </p>
+        </div>
+        <div class="herramientas-project">
+            <h2 class="title-skills-information">TECNOLOGÍAS Y HERRAMIENTAS <br>UTILIZADAS</h2>
+            <div class="label-grid">
+                <label>Java</label>
+                <label>Java swing</label>
+                <label>Intellij Idea</label>
+                <label>PostgreSQL</label>
+                <label>POO</label>
+                <label>JUnit</label>
+            </div>
+        </div>
+    </div>
+</div>
