@@ -104,3 +104,101 @@
 .label-grid label:hover {
     background-color: #e0e0e0;
 }
+
+/*
+Estilos de moviles
+*/
+@media (max-width: 600px) {
+    .title-init-information {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .description-title-init-information {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .skills-text-information-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .title-text-information {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .text-information {
+        width: 80%;
+        margin-bottom: 4%;
+    }
+
+    .parrafo-information {
+        line-height: 1.8;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+
+
+    .button-contacto-text-information {
+        background-color: rgb(146, 75, 205);
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform .3s;
+        width: 140px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-top: 8%;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 20%;
+    }
+
+    .skills-information {
+        display: block;
+        margin-bottom: 4%;
+    }
+
+    .title-skills-information {
+        margin-left: 25%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+
+    .label-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        justify-items: center;
+        align-items: flex-start;
+        padding: 10px;
+        margin-bottom: 8%;
+    }
+
+    .label-grid label {
+        background-color: rgb(209, 207, 207);
+        border-radius: 10px;
+        padding: 15px 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        text-align: center;
+        cursor: default;
+        transition: background 0.3s;
+    }
+
+    .label-grid label:hover {
+        background-color: #e0e0e0;
+    }
+
+}
+
+/*
+Estilos de tablets
+*/
+@media (min-width: 601px) and (max-width: 1024px) {}

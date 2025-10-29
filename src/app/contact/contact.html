@@ -17,13 +17,14 @@
         </div>
         <div class="form-contact">
             <form class="formulario-registro">
-                <input class="register-input" placeholder="Nombre" />
-                <input class="register-input" placeholder="Apellidos" />
-                <input class="register-input" placeholder="Correo" />
-                <input class="register-input" placeholder="Asunto" />
-                <textarea class="text-area-form" placeholder="Escribe tu comentario aquí..."></textarea>
-
-                <button type="submit" class="button-register">Enviar</button>
+                <input class="register-input" placeholder="Nombre" id="nombre_id" />
+                <input class="register-input" placeholder="Apellidos" id="apellidos_id" />
+                <input class="register-input" placeholder="Correo" id="correo_id" />
+                <input class="register-input" placeholder="Asunto" id="asunto_id" />
+                <textarea class="text-area-form" placeholder="Escribe tu comentario aquí..." id="mensaje_id"></textarea>
+                <ngx-recaptcha2 [siteKey]="siteKey" (success)="captchaResolved($event)">
+                </ngx-recaptcha2>
+                <button type="submit" class="button-register" (click)="readValues($event)">Enviar</button>
             </form>
         </div>
     </div>

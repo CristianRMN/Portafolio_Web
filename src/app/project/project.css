@@ -172,3 +172,181 @@
   transition: opacity 0.6s ease;
   mix-blend-mode: normal;
 }
+
+/*
+Estilos de moviles
+*/
+@media (max-width: 600px) {
+
+  .text-init-project-container {
+    margin-top: 10%;
+  }
+
+  .title-init-information {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  }
+
+  .text-title-init-information {
+    width: 300px;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+
+  .projects-row1 {
+    position: relative;
+    width: 172px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 35%;
+  }
+
+  .projects-row2 {
+     position: relative;
+    width: 172px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 35%;
+  }
+
+
+  .projects-row3 {
+    position: relative;
+    width: 172px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 35%;
+  }
+
+  .projects-row4 {
+    position: relative;
+    width: 172px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 35%;
+  }
+
+  .projects-row5 {
+    position: relative;
+    width: 172px;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 35%;
+  }
+
+
+  .imagen-tv {
+    width: 300px;
+    display: block;
+  }
+
+  .imagen-overlay {
+    position: absolute;
+    top: 2.8%;
+    left: 3%;
+    width: 168%;
+    height: 72%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .imagen-overlay:active {
+    opacity: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 175%;
+    height: 77%;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    gap: 30px;
+  }
+
+  .description-overlay {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .projects-row1:hover .overlay {
+    opacity: 1;
+  }
+
+  .projects-row2:hover .overlay {
+    opacity: 1;
+  }
+
+  .projects-row3:hover .overlay {
+    opacity: 1;
+  }
+
+
+  .projects-row4:hover .overlay {
+    opacity: 1;
+  }
+
+  .projects-row5:hover .overlay {
+    opacity: 1;
+  }
+
+
+  .overlay p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .overlay button {
+    background: #00bfa5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .overlay button:hover {
+    background: #009e8f;
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+
+  .imagen-simon {
+    position: absolute;
+    top: 5.5%;
+    left: 13%;
+    width: 75%;
+    height: 84%;
+    border-radius: 8px;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+    mix-blend-mode: normal;
+  }
+
+}
+
+/*
+Estilos de tablets
+*/
+@media (min-width: 601px) and (max-width: 1024px) {}
