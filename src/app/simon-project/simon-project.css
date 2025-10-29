@@ -151,3 +151,138 @@
 .label-grid label:hover {
   background-color: #e0e0e0;
 }
+
+/*
+Estilos de moviles
+*/
+@media (max-width: 600px) {
+
+  .title-project {
+    margin-top: 40%;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+
+  .project {
+    position: relative;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 2%;
+  }
+
+  .imagen-tv {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .imagen-overlay {
+    position: absolute;
+    top: 2.8%;
+    left: 2%;
+    width: 96%;
+    height: 72%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .description-overlay {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77%;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    gap: 20px;
+  }
+
+  .overlay p {
+    font-size: 11px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+  .esquema-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    gap: 50px;
+  }
+
+  .title-descripcion-project {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .descripcion-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .parrafo-descripcion-project {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    width: 70%;
+  }
+
+  .title-skills-information {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .label-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .label-grid label {
+    background-color: rgb(209, 207, 207);
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+    transition: background 0.3s;
+  }
+
+  .label-grid label:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+/*
+Estilos de tablets
+*/
+@media (min-width: 601px) and (max-width: 1024px) {}

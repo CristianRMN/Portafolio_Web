@@ -24,6 +24,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 .projects-row1 {
   position: relative;
   width: 400px;
@@ -196,59 +198,64 @@ Estilos de moviles
   }
 
 
-
   .projects-row1 {
     position: relative;
-    width: 172px;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
     height: auto;
     margin-top: 2%;
-    margin-right: 35%;
   }
 
   .projects-row2 {
-     position: relative;
-    width: 172px;
+    position: relative;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
     height: auto;
     margin-top: 2%;
-    margin-right: 35%;
   }
 
 
   .projects-row3 {
     position: relative;
-    width: 172px;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
     height: auto;
     margin-top: 2%;
-    margin-right: 35%;
   }
 
   .projects-row4 {
     position: relative;
-    width: 172px;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
     height: auto;
     margin-top: 2%;
-    margin-right: 35%;
   }
 
   .projects-row5 {
     position: relative;
-    width: 172px;
+    width: 70%;
+    max-width: 400px;
+    margin: 0 auto;
     height: auto;
     margin-top: 2%;
-    margin-right: 35%;
   }
 
 
   .imagen-tv {
-    width: 300px;
+    width: 100%;
     display: block;
+    margin: 0 auto;
   }
 
   .imagen-overlay {
     position: absolute;
     top: 2.8%;
-    left: 3%;
-    width: 168%;
+    left: 2%;
+    width: 96%;
     height: 72%;
     border-radius: 8px;
     object-fit: cover;
@@ -263,7 +270,7 @@ Estilos de moviles
     position: absolute;
     top: 0;
     left: 0;
-    width: 175%;
+    width: 100%;
     height: 77%;
     background: rgba(0, 0, 0, 0.75);
     color: white;
@@ -273,34 +280,10 @@ Estilos de moviles
     justify-content: center;
     opacity: 0;
     transition: opacity 0.6s ease;
-    gap: 30px;
+    gap: 20px;
   }
 
-  .description-overlay {
-    font-family: 'Roboto', sans-serif;
-  }
-
-  .projects-row1:hover .overlay {
-    opacity: 1;
-  }
-
-  .projects-row2:hover .overlay {
-    opacity: 1;
-  }
-
-  .projects-row3:hover .overlay {
-    opacity: 1;
-  }
-
-
-  .projects-row4:hover .overlay {
-    opacity: 1;
-  }
-
-  .projects-row5:hover .overlay {
-    opacity: 1;
-  }
-
+  
 
   .overlay p {
     font-size: 11px;
@@ -323,26 +306,8 @@ Estilos de moviles
     font-size: 10px;
   }
 
-  .overlay button:hover {
-    background: #009e8f;
-    transform: scale(1.1);
-    cursor: pointer;
-    opacity: 0.8;
-  }
 
 
-  .imagen-simon {
-    position: absolute;
-    top: 5.5%;
-    left: 13%;
-    width: 75%;
-    height: 84%;
-    border-radius: 8px;
-    object-fit: cover;
-    opacity: 1;
-    transition: opacity 0.6s ease;
-    mix-blend-mode: normal;
-  }
 
 }
 

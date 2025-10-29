@@ -130,3 +130,113 @@
     cursor: pointer;
     opacity: 0.8;
 }
+
+
+/*
+Estilos de moviles
+*/
+@media (max-width: 600px) {
+    .title-contactame {
+        margin-top: 10%;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+
+    .descripcion-contacto {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.8;
+        font-size: 13px;
+    }
+
+
+    .message-contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-bottom: 5%;
+    }
+
+    .imagen-correo {
+        width: 100px;
+        height: 100px;
+        transition: transform 0.2s, opacity 0.2s;
+    }
+
+
+    .nombre-correo {
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    .descripcion-nombre-correo {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+    }
+
+
+    .formulario-registro {
+        background-color: rgb(236, 242, 242);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 2%;
+        height: auto;
+        margin-bottom: 15%;
+    }
+
+    .register-input {
+        background-color: rgb(236, 242, 242);
+        border: none;
+        border-bottom: 2px solid #ccc;
+        padding: 2%;
+        outline: none;
+        width: 90%;
+        transition: border-color 0.3s;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+
+    .captcha-imput{
+        
+    }
+
+    .register-input:focus {
+        border-bottom: 2px solid #42b883;
+    }
+
+    .text-area-form {
+        width: 90%;
+        height: auto;
+        resize: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .button-register {
+        background-color: rgb(146, 75, 205);
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+        transition: transform .3s;
+        width: 140px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+        margin-top: 2%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+}
+
+/*
+Estilos de tablets
+*/
+@media (min-width: 601px) and (max-width: 1024px) {}
