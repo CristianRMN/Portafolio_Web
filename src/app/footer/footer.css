@@ -92,4 +92,38 @@ Estilos de moviles
 /*
 Estilos de tablets
 */
-@media (min-width: 601px) and (max-width: 1024px) {}
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .title-redes-sociales {
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 3%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 160px;
+        margin-right: 10%;
+    }
+
+    .imagen-footer {
+        width: 60px;
+        filter: brightness(0) invert(1);
+        transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .derechos-container {
+        border: 1px black solid;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        padding: 2%;
+        width: 80%;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+}

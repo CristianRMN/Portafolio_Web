@@ -71,56 +71,56 @@ li:hover {
 estilos responsives
 */
 
-@media (max-width: 600px){
-.navigation-about {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  padding: 1% 2%;
-}
+@media (max-width: 600px) {
+  .navigation-about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 1% 2%;
+  }
 
-.image-about {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
+  .image-about {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 
-.image-name-about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
+  .image-name-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 
-.ul-navegacion-about {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-  gap: 10px;
-}
+  .ul-navegacion-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
-li {
-  list-style: none;
-  cursor: pointer;
-}
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .navigation-about {
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     gap: 50px;
     padding: 1% 5%;
   }

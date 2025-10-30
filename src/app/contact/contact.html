@@ -22,7 +22,7 @@
                 <input class="register-input" placeholder="Correo" id="correo_id" />
                 <input class="register-input" placeholder="Asunto" id="asunto_id" />
                 <textarea class="text-area-form" placeholder="Escribe tu comentario aquí..." id="mensaje_id"></textarea>
-                <ngx-recaptcha2 [siteKey]="siteKey" (success)="captchaResolved($event)" class="captcha-imput">
+                <ngx-recaptcha2 [siteKey]="siteKey" (success)="captchaResolved($event)" class="captcha-input">
                 </ngx-recaptcha2>
                 <button type="submit" class="button-register" (click)="readValues($event)">Enviar</button>
             </form>
